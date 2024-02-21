@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using MeetingOrganizer.API.Models;
 using Microsoft.EntityFrameworkCore;
 using MeetingOrganizer.API.Data;
 
@@ -19,9 +18,9 @@ namespace MeetingApp.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Meeting>>> GetAllMeetings()
         {
-            await _context.Meetings.ToListAsync();
+            var meetings = await _context.Meetings.ToListAsync();
 
-            return Ok();
+            return Ok(meetings);
         }
 
         // GET: api/meetings/5

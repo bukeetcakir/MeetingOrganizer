@@ -1,7 +1,8 @@
+
 namespace MeetingOrganizer.API.Models;
 
-public class Meeting{
-        public Meeting()
+public class Meetings{
+        public Meetings()
         {
             Participants = new List<string>();
         }
