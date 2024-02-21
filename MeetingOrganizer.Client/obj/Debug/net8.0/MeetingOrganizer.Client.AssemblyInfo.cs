@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MeetingOrganizer.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84bb8de5878dec2ce09f900ef9c2e3de87c62434")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84a96881d40a0c71849510d6c81217597351e069")]
 [assembly: System.Reflection.AssemblyProductAttribute("MeetingOrganizer.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MeetingOrganizer.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
